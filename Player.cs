@@ -28,7 +28,7 @@ public class Player : MonoBehaviour
         inputVector = inputVector.normalized;
 
         Vector3 moveDir = new Vector3(inputVector.x, 0f, inputVector.y);
-        transform.position += (Vector3)inputVector;
+        transform.position += moveDir;
 
         Debug.Log(inputVector);
     }
