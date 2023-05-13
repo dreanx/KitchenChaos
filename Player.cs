@@ -27,6 +27,8 @@ public class Player : MonoBehaviour
 
         inputVector = inputVector.normalized;
 
+        transform.position += (Vector3)inputVector;
+
         Debug.Log(inputVector);
     }
 }
