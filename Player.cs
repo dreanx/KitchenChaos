@@ -25,6 +25,8 @@ public class Player : MonoBehaviour
             inputVector.x = +1;
         }
 
+        inputVector = inputVector.normalized;
+
         Debug.Log(inputVector);
     }
 }
