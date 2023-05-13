@@ -6,6 +6,8 @@ public class Player : MonoBehaviour
 {
     private void Update()
     {
+        Vector2 inputVector = new Vector2(0, 0);
+
         if (Input.GetKey(KeyCode.Z))
         {
 
