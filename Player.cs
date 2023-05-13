@@ -10,6 +10,6 @@ public class Player : MonoBehaviour
         {
             Debug.Log("Pressing!");
         }
-        else { Debug.Log("-"); } 
+        else { Debug.Log("-"); }  
     }
 }
