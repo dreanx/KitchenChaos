@@ -10,19 +10,21 @@ public class Player : MonoBehaviour
 
         if (Input.GetKey(KeyCode.Z))
         {
-
+            inputVector.y = +1;
         }
         if (Input.GetKey(KeyCode.S))
         {
-
+            inputVector.y = -1;
         }
         if (Input.GetKey(KeyCode.Q))
         {
-
+            inputVector.x = -1;
         }
         if (Input.GetKey(KeyCode.D))
         {
-
+            inputVector.x = +1;
         }
+
+        Debug.Log(inputVector);
     }
 }
